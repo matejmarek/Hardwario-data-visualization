@@ -1,6 +1,6 @@
 # Hardwario_data_visualization
 
-## Programs to work with measuring station hardwario.
+## Programs to work with measuring station hardwario outcomes.
 
 <i>hardvario-temp.txt</i> is an example outcome, from hardwario station, after using specific program in its Playground.
 And in folders are possible outcomes after using this programs.
