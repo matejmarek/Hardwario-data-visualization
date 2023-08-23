@@ -1,7 +1,7 @@
 # Hardwario-data-visualization
 
-Program to work with meassuring station hardwario.
+Program to work with measuring station hardwario.
 
-Project for: [Fyzikální ústav AV ČR, v.v.i.](https://www.fzu.cz/domov)
+Project for: [Fyzikální ústav AV ČR](https://www.fzu.cz/domov)
 
 Made by: 
