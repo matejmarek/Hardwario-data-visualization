@@ -1,4 +1,4 @@
-# Hardwario-data-visualization
+# Hardwario_data_visualization
 
 ## Programs to work with measuring station hardwario.
 
