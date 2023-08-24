@@ -41,10 +41,9 @@ def create_visualization(source_folder, output_folder):
         image_path = os.path.join(folder_path, f"{pf_child}_plot.png")
         fig.write_image(image_path)
 
-    print("Done successfully!")
-
 if __name__ == '__main__':
     source_folder = "C:/Users/machm/OneDrive/Dokumenty/Hardwario" #replace this with your own folders
     output_folder = "C:/Users/machm/julia-vizualizace-dat-main/how_python_outputs_looks_like" #aswell
 
-create_visualization(source_folder, output_folder)
+    create_visualization(source_folder, output_folder)
+    print("Done successfully!")
