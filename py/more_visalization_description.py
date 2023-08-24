@@ -35,11 +35,11 @@ def create_visualization(source_folder, output_folder):
         fig.show()
 
         # Creating a Python list of dictionaries for tabulated data
-        data_table = [{'Time': i, 'Values': value} for i, value in enumerate(list_values, start=1)]
+        data_table = [{'Time': i, pf_child: value} for i, value in enumerate(list_values, start=1)]
         # Saving the Python data as a variable
         python_data_path = os.path.join(folder_path, f"{pf_child}_data.py")
         with open(python_data_path, "w") as python_data_file:
-            python_data_file.write(f"data = {data_table}")
+            python_data_file.write(f"{pf_child}_data = {data_table}")
 
         # Save the scatter plot as an HTML file within the folder
         html_path = os.path.join(folder_path, f"{pf_child}_plot.html")
